@@ -1,0 +1,19 @@
+{
+  "name": "tier2",
+  "version": "1.0.0",
+  "description": "message broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ds2"
+  ],
+  "author": "ds2",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "express": "^4.16.3",
+    "mysql-clusterfarm": "^2.7.2"
+  }
+}

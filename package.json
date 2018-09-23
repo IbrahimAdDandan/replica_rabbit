@@ -1,0 +1,29 @@
+{
+  "name": "replica_rabbit",
+  "version": "1.0.0",
+  "description": "replication cluster farm mysql and rabbitmq message broker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./Tier1/index node ./Tier2/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimAdDandan/replica_rabbit.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "message",
+    "broker",
+    "mysql",
+    "replication",
+    "cluster",
+    "distributed"
+  ],
+  "author": "Ibrahim AdDandan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IbrahimAdDandan/replica_rabbit/issues"
+  },
+  "homepage": "https://github.com/IbrahimAdDandan/replica_rabbit#readme"
+}
